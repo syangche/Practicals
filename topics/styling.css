@@ -1,0 +1,46 @@
+/* List styling */
+ul {
+    list-style-type: square; /* Change bullet style */
+    padding-left: 20px; /* Adjust indentation */
+}
+
+li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse; /* Combine cell borders */
+    width: 100%;
+    border-radius: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra striping */
+}
+
+
+/* Form styling */
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+label{
+    text-transform: lowercase;
+}
+
+.btn:hover {
+    background-color: red;
+    color: white;
+}
+

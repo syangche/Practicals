@@ -1,0 +1,7 @@
+/* Box model example */
+.box {
+    width: 300px; /* Content width */
+    padding: 20px; /* Space inside the border */
+    border: 6px solid black; /* Border */
+    margin: 30px; /* Space outside the border */    
+}

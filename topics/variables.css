@@ -1,0 +1,18 @@
+/* Defining css variables */
+/* Syntax: --variable-name: value;  */
+
+:root {
+    --primary-color: #3498db; /* Define a custom property for the primary color */
+    --secondary-color: #932b0b; /* Define a custom property for the secondary color */
+    --font-size-large: 2rem; /* Define a custom property for large font size */
+    --spacing-unit: 16px; /* Define a custom property for spacing unit */
+}
+
+
+/* using css variables */
+/* You can use the var() function to access the value of a CSS variable. */
+
+h1{
+    color: var(--primary-color);
+    
+}

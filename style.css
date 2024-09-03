@@ -1,0 +1,119 @@
+/* for table border */
+table, th, td {
+    border: 1px solid black; border-collapse: collapse;
+}
+
+/* this is for the texts */
+h1 {
+    border-bottom: 1px solid black;
+}
+
+/* element selector */
+p {
+    color: blue;
+}
+
+/* id selector*/
+#container {
+    color: red;
+}
+
+/* class selector */
+.intro {
+    color: green;
+}
+
+/* universal selector */
+* {
+    color: purple;
+}
+
+/* grouping selector */
+h2, h3 {
+    color: orange;
+}
+
+/* attribute selector */
+a[href] {
+    color: brown;
+}
+
+/* descendant selector */
+div p {
+    color: black;
+}
+
+/* pseudo-class selector*/
+a:link {
+    color: yellow;
+}
+
+/* pseudo-element selector */
+p::first-line {
+    color: pink;
+}   
+
+/* CSS properties
+   CSS properties are always used in conjunction with selectors to create CSS rules. The basic structure is:*/
+
+selector {
+  property: value;
+}
+
+/* Example of various CSS properties in use */
+.example-element {
+    /* Color properties */
+    color: #333333;
+    background-color: #f0f0f0;
+  
+    /* Text properties */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  
+    /* Box model properties */
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #999999;
+  
+    /* Layout properties */
+    display: flex;
+    position: relative;
+    
+    /* Flexbox properties */
+    justify-content: center;
+    align-items: center;
+  }
+
+
+/* BOX MODEL */
+/* It is for layout and spacing in web design. It consists of:
+
+Content: The actual content of the box
+Padding: Space between the content and the border
+Border: A line around the padding and content
+Margin: Space outside the border */
+
+/* Box model example */
+.box {
+    background-color: blue;
+}
+
+/* Layout example */
+.container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+}
+
+.item {
+    flex: 1; /* Grow to fill available space */
+    margin: 10px; /* Space between items */
+}
+
+.btn:hover {
+    background-color: red;
+    color: white;
+}
